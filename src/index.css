@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: #0b0b0b;
+  font-family: "Josefin Sans", sans-serif;
+}
+.App {
+   background-color: #1d1d1d; 
+  width: 700px;
+  min-height: 350px;
+  margin: 5px auto;
+  text-align: center;
+  border-radius: 8px;
+  color: #eee;
+  padding-bottom: 100px;
+  
+}
+
+form h1 {
+  padding-top: 40px;
+}
+input[type="text"] {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 15px;
+  outline: none;
+  width: 500px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+button {
+  margin: 10px auto;
+  background-color: #4681f4;
+  width: 100px;
+  height: 36px;
+  color: #fbfbfb;
+  border: none;
+  border-radius: 30px;
+}
+.task {
+  font-size: 20px;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #eee;
+}
+.task input,
+.task button,
+.task button {
+  cursor: pointer;
+}
+h1 > span {
+  font-size: 24px;
+}
+.error {
+  color: red;
+}
+.task button {
+  color: #eee;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  font-size: 20px;
+  margin: 0;
+}
